@@ -98,7 +98,7 @@ function createPressButtons(items) {
   bt.onclick = function (event) {
     document.body.innerHTML = "";
     console.log("submit");
-    document.write("submited")
+    document.write("submited");
   };
   console.log("create button: " + bt.id + "at: " + dev);
   dev.appendChild(bt);
