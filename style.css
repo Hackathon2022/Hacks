@@ -1,0 +1,29 @@
+.pressbt {
+    background-color:pink;
+    /* position: relative; */
+    /* clear: both; */
+    /* display: flex; */
+    /* float: left; */
+    /* width: 300px; */
+    /* padding: 10px; */
+}
+
+.pressbta {
+    background-color:pink;
+    /* position: relative; */
+    /* clear: both; */
+    /* display: flex; */
+    float: right;
+    /* width: 300px; */
+    /* padding: 10px; */
+}
+
+.pressbts {
+    background-color:pink;
+    /* position: relative; */
+    /* clear: both; */
+    /* display: flex; */
+    /* float: right; */
+    /* width: 300px; */
+    /* padding: 10px; */
+}
