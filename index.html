@@ -1,36 +1,87 @@
 <!DOCTYPE html>
 <html lang="en">
-
 <head>
     <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="./index.css">
-    <script src="index.js"> </script>
-    <title>Document</title>
+    <meta name="ivan" content="nwHacksProjects">
+    <meta name="description" content="A webpage that will suggest cuisine and recipes based on ingredient you gives">
+    
+    <title>Recipe Selector</title>
+
+    <link rel="shortcut icon" href="favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="style.css">
+    <script src="script.js" defer></script>
 </head>
-
 <body>
-
-    <div>
-        <button id="beef" onclick="changeColor(id)"> Beef</button>
-        <button id="lamb" onclick="changeColor(id)"> Lamb</button>
-        <button id="pork" onclick="changeColor(id)"> Pork</button>
+    <!-- <div class="scene1">
+        <style>
+            hr {color:sienna;}
+            p {margin-left:20px;}
+            body {background-image:url("images/back40.gif");}
+        </style>
+        <button id="beef" class="pressbt" type="button" onclick="srcipt.js/myFunction()">beef</button>
+        <button id="chicken" class="pressbt" type="button" onclick="myFunction()">beef</button>
+        <button id="sheep" class="pressbt" type="button" onclick="myFunction()">beef</button>
+        <button id="pig" class="pressbt" type="button" onclick="myFunction()">beef</button>
+        <button id="beef" class="pressbt" type="button" onclick="myFunction()">beef</button>
+        <button id="beef" class="pressbt" type="button" onclick="myFunction()">beef</button>
+        <button id="beef" class="pressbt" type="button" onclick="myFunction()">beef</button>
     </div>
 
+    <label for="tac1">
+        <input id="tac"name="terms-and-conditions">
+        I agree to the Terms and Conditions
+    </label>
 
+    <div id="MyDiv"></div>
+        <script>
+            function AddButton() {
+                var MyDiv =document.getElementById("MyDiv");
+                var bt =document.createElement("button");           //createElement生成button对象
+                bt.innerHTML = '删除'; 
+                bt.onclick = function () {                          //绑定点击事件
+                delete(this.parentNode.parentNode.id);
+            };
+            pictureDiv.appendChild(bt);                         //添加到页面
+        }
+        </script>
+    
 
-    <div>
-        <button id="lettuce" onclick="changeColor(id)"> Lettuce</button>
-        <button id="gaiLan" onclick="changeColor(id)"> Gai Lan</button>
-        <button id="brocoli" onclick="changeColor(id)"> Brocoli </button>
-    </div>
+    <script>
+        function myFunction(x) {
+            document.getElementById(event.target.id).innerHTML="hi";
+            document.getElementById(event.target.id).style="background-color:white;";
+            console.log(x);
+        }
+    </script> -->
+    
 
-    <div>
-        <button id="salt" onclick="changeColor(id)"> salt</button>
-        <button id="pepper" onclick="changeColor(id)"> pepper</button>
-        <button id="soySauce" onclick="changeColor(id)"> Soy sauce</button>
-    </div>
+    <!-- // <script>
+    //     document.write("Hello World!")
+    //     var output = document.getElementById('output'),
+    //         btn    = document.getElementById('a');
+
+    //     var active;
+
+    //     btn.addEventListener('keydown', function(data) {
+    //         active = 'on';
+    //         output.innerHTML = active;
+    //     });
+
+    //     btn.addEventListener('keyup', function(data) {
+    //         active = 'off';
+    //         output.innerHTML = active;
+    //     });
+
+    //     btn.addEventListener('mousedown', function(data) {
+    //         active = 'on';
+    //         output.innerHTML = active;
+    //     });
+
+    //     btn.addEventListener('mouseup', function(data) {
+    //         active = 'off';
+    //         output.innerHTML = active;
+    //     });
+
+    // }</script>    -->
 </body>
-
 </html>
